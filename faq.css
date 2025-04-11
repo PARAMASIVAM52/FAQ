@@ -1,0 +1,72 @@
+*
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:url('background-pattern-desktop.svg');
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-color: rgba(172, 110, 176, 0.294);
+    background-size: contain;
+    background-attachment: fixed;
+    
+}
+.block
+{
+    background-color: #fff;
+    padding: 15px;
+    margin-left: 30%;
+    border-radius: 20px;
+    height: auto;
+    width: 600px;
+    margin-top: 15%;
+    font-size: larger;
+}
+.head{
+    font-size: 25px;
+    padding: 15px;
+    margin: 0px;
+    display: flex;
+    justify-content:first baseline;
+
+}
+.main{
+    padding: 3px 8px;
+
+}
+#icon
+{
+    margin-right: 10px;
+    margin-left: 5px;
+    width: 45px;
+    height: 45px;
+}
+.h4_head{
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h4:hover
+{
+    color: blueviolet;
+}
+h4{
+    padding-top: 10px;
+}
+#plus
+{
+    margin-left:25px;
+}
+.content{
+    padding: 5px;
+}
+.disp1,.disp2,.disp3,.disp4{
+    margin-left: 35px;
+    margin-top: 15px;
+    color: rgb(96, 86, 86);
+    display: none;
+}
